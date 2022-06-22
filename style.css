@@ -1,0 +1,231 @@
+body{
+    color: var(--darkBlack);
+    font-family: var(--robotoMono);
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+.center-container{
+    border: 2px solid orangered;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*display: grid;place content: center dont work with position absolute; so use display: flex;*/
+    position: relative;
+}
+.square{
+    border: 3px solid black;
+    width: 200px;
+    height: 375px;
+    position: absolute;
+}
+#a1{
+    animation: a1 5s linear infinite;
+}
+@keyframes a1{
+    50%{
+        border-radius: 100%;
+        transform: rotate(180deg);
+    }
+}
+#a2{
+    animation: a2 5s linear infinite;
+}
+@keyframes a2{
+    50%{
+        border-radius: 100%;
+        transform: rotate(170deg);
+    }
+}
+#a3{
+    animation: a3 5s linear infinite;
+}
+@keyframes a3{
+    50%{
+        border-radius: 100%;
+        transform: rotate(160deg);
+    }
+}
+#a4{
+    animation: a4 5s linear infinite;
+}
+@keyframes a4{
+    50%{
+        border-radius: 100%;
+        transform: rotate(150deg);
+    }
+}
+#a5{
+    animation: a5 5s linear infinite;
+}
+@keyframes a5{
+    50%{
+        border-radius: 100%;
+        transform: rotate(140deg);
+    }
+}
+#a6{
+    animation: a6 5s linear infinite;
+}
+@keyframes a6{
+    50%{
+        border-radius: 100%;
+        transform: rotate(130deg);
+    }
+}
+#a7{
+    animation: a7 5s linear infinite;
+}
+@keyframes a7{
+    50%{
+        border-radius: 100%;
+        transform: rotate(120deg);
+    }
+}
+#a8{
+    animation: a8 5s linear infinite;
+}
+@keyframes a8{
+    50%{
+        border-radius: 100%;
+        transform: rotate(110deg);
+    }
+}
+
+#a9{
+    animation: a9 5s linear infinite;
+}
+@keyframes a9{
+    50%{
+        border-radius: 100%;
+        transform: rotate(100deg);
+    }
+}
+#a10{
+    animation: a10 5s linear infinite;
+}
+@keyframes a10{
+    50%{
+        border-radius: 100%;
+        transform: rotate(90deg);
+    }
+}
+#a11{
+    animation: a11 5s linear infinite;
+}
+@keyframes a11{
+    50%{
+        border-radius: 100%;
+        transform: rotate(80deg);
+    }
+}
+#a12{
+    animation: a12 5s linear infinite;
+}
+@keyframes a12{
+    50%{
+        border-radius: 100%;
+        transform: rotate(70deg);
+    }
+}
+#a13{
+    animation: a13 5s linear infinite;
+}
+@keyframes a13{
+    50%{
+        border-radius: 100%;
+        transform: rotate(60deg);
+    }
+}
+
+#a14{
+    animation: a14 5s linear infinite;
+}
+@keyframes a14{
+    50%{
+        border-radius: 100%;
+        transform: rotate(50deg);
+    }
+}
+#a15{
+    animation: a15 5s linear infinite;
+}
+@keyframes a15{
+    50%{
+        border-radius: 100%;
+        transform: rotate(40deg);
+    }
+}
+#a16{
+    animation: a16 5s linear infinite;
+}
+@keyframes a16{
+    50%{
+        border-radius: 100%;
+        transform: rotate(30deg);
+    }
+}
+#a17{
+    animation: a17 5s linear infinite;
+}
+@keyframes a17{
+    50%{
+        border-radius: 100%;
+        transform: rotate(20deg);
+    }
+}
+#a18{
+    animation: a18 5s linear infinite;
+}
+@keyframes a18{
+    50%{
+        border-radius: 100%;
+        transform: rotate(10deg);
+    }
+}
+
+
+
+//alternative
+// #a1{
+//     animation: a1 5s linear infinite;
+// }
+// @keyframes a1{
+//     50%{
+//         border-radius: 100%;
+//         transform: rotate(360deg);
+//     }
+// }
+// #a2{
+//     animation: a2 5s linear infinite;
+// }
+// @keyframes a2{
+//     50%{
+//         border-radius: 100%;
+//         transform: rotate(325deg);
+//     }
+// }
+// #a3{
+//     animation: a3 5s linear infinite;
+// }
+// @keyframes a3{
+//     50%{
+//         border-radius: 100%;
+//         transform: rotate(300deg);
+//     }
+// }
+// #a4{
+//     animation: a4 5s linear infinite;
+// }
+// @keyframes a4{
+//     50%{
+//         border-radius: 100%;
+//         transform: rotate(275deg);
+//     }
+// }
